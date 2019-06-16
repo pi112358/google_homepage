@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif
+}
+
+/* navbar */
+
+nav {
+    font-size: 12px;
+    position: relative;
+    padding-top : 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(31, 31, 31);
+}
+
+nav ul {
+    list-style: none;
+    display: inline-block;
+    padding: 20px 30px;
+}
+
+nav ul li {
+    display: inline-block;
+    padding-right: 10px;
+    vertical-align: middle;
+}
+
+nav img {
+    width : 50%;
+}
+/*
+#nav-left {
+    padding-top: 20px;
+}
+*/
+#nav-right {
+    position: absolute;
+    right: 0;
+}
+
+
+#search-area {
+    text-align: center;
+    padding-top: 140px;
+}
+
+form {
+    text-align: center;
+    padding-top: 20px;
+}
+
+form input {
+    width : 500px;
+    border-radius : 23px;
+    height : 50px;
+    font-size : 25px;
+    border : 1px solid rgb(220,220,220);
+    padding : 15px;
+    margin-bottom : 10px;
+}
+form button {
+    width : 120px;
+    height : 40px;
+    border : none;
+    border-radius : 5px;
+    margin-left : 2px;
+    font-size : 15px;
+    color : rgb(117, 112, 112);
+    box-sizing: content-box;
+}
